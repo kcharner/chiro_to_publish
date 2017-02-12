@@ -1,11 +1,9 @@
 /*DESKTOP & IPAD PRO HORIZONTAL*/
-/*body {
-	font-family: Raleway;
-}*/
 
 .bio {
 	font-family: Raleway;
 	font-size: 18px;
+	text-indent: 60px;
 }
 
 #summary {
@@ -90,6 +88,8 @@ a {
 #homeContent {
 	margin-bottom: 0%;
 	padding-bottom: 0%;
+	background-color: #B2DFDB;
+	
 }
 
 #makeApp {
@@ -197,18 +197,19 @@ ul {
 	min-height: 525px;
 	padding: 0px;
 	margin: 0px;
+
 }
 .nopadding {
 	padding:0px;
 }
 
-#feed {
-	width:80%;
-	margin-left: 10%;
-}
 
-#feedDiv {
-	background-color: #B2DFDB;
+
+#rss{
+	height:170px;
+	width:75%;
+	background-color: #008F95;
+	margin-left: 12.5%;
 }
 
 h1 {
@@ -237,6 +238,7 @@ h1 {
 
 .careInfo {
 	font-size: 15px;
+	text-indent: 60px;
 }
 
 #tagline {
@@ -335,6 +337,9 @@ footer {
         vertical-align: top;
     }
 
+#aboutStatement{
+	text-indent: 40px;
+}
 /*IPAD PRO VERTICAL*/
 @media only screen and (max-width:1100px) {
 
