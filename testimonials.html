@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Anton|Passion+One|Sacramento|Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/test.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!--start fixed navbar-->
+	<nav class="navbar navbar-default navbar-fixed-top" id="fixedNav">
+			<ul class="col-lg-6" id="highlights">
+				<button class="fixedBtn"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><a href="appoints.html#appointments"> APPOINTMENTS</a></button>
+				<button class="fixedBtn"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="testimonials.html"> TESTIMONIALS</a></button>
+			</ul>
+			<p class="nav navbar-nav navbar-right fixedBtn"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL US: <a href="tel:760-268-1072">760-268-1072</a></p>
+			<!-- <ul class="nav navbar-nav navbar-right">
+				<li>SOCIAL</li>
+				<li>MEDIA</li>
+				<li>LINKS</li>
+				<li>HERE</li>
+			</ul> -->
+	</nav>
+	<!--start primary navbar-->
+	<nav class="navbar navbar-default homeNav">
+	  	<div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a href="index.html"><img id="logoAlt" src="assets/images/logo.png"></a>
+		    </div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     	<ul class="nav navbar-nav navbar-right" id="links">
+		        	<li class="dropdown"> <!--first dropdown-->
+		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chiropractic Care<span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                    <li><a href="care.html">Services</a></li>
+		                    <li><a href="care.html#performance-care">Performance Care</a></li>
+		                    <li><a href="care.html#specialty-techniques">Specialty Techniques</a></li>
+		                    <li><a href="care.html#spinal-decompression">Spinal Decompression</a></li>
+		                    <li><a href="care.html#history">History of Chiropractic Care</a></li>
+		                </ul>
+		            </li> 
+		            <li><a href="about.html">About Dr. Brent</a></li>
+					<li class="dropdown"> <!--second dropdown-->
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="appoints.html">New Patients</a></li>
+							<li><a href="appoints.html#appointments">Appointments</a></li>
+						</ul>
+					</li>       
+		            <li><a href="testimonials.html">Testimonials</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		      	</ul>
+	    	</div>
+	 	</div>
+	</nav>
+	<section id="aboutContent">
+		<h1 id="headline">Testimonials</h1>
+		 <!--Testimonial 1-->
+		<div class="row is-table-row">
+          <div class="col-lg-4">
+            <p>Eddie Royal</p>
+            <img class="testImg" src="assets/images/testimg1.jpg">
+          </div>
+          <!--Testimonial 2-->
+          <div class="col-lg-4">
+            <p>Takeo Spikes</p>
+            <img class="testImg" src="assets/images/testimg2.jpg">
+          </div>
+           <!--Testimonial 3-->
+          <div class="col-lg-4 ">
+            <p>Ronnie Brown</p>
+            <img class="testImg" src="assets/images/testimg3.jpg">
+          </div>
+        </div> 
+	</section>
+	<!--start footer-->
+	<footer class="footer">
+    	<div class="container">
+    		<div class="col-lg-4">
+    			<h5 class="h5">LOCATION</h5>
+    			<a href="contact.html" class="details">7220 Avenida Encinas #110<br>Carlsbad, CA</a>
+    		</div>
+    		<div class="col-lg-4">
+    			<h5 class="h5">HOURS</h5>
+    			<p class="details">Monday/Wednesday: 2pm-6pm</p>
+    			<p class="details">Tuesday/Thursday: 7am-2pm</p>
+    			<p class="details">Friday: 8am-2pm</p>
+    			<p class="details">Closed Saturday & Sunday</p>
+    		</div>
+    		<div class="col-lg-4">
+    			<h5 class="h5">CONTACT US</h5>
+    			<p class="details">Ph: 760-268-1072</p>
+    			<p class="details">Fax: 760-268-1076</p>
+    		</div>
+    		<!-- <div class="col-lg-3">
+        		<p class="text-muted" id="footerSig">Copyright 2017 kac</p>
+        	</div> -->
+       	</div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+</body>
+</html>

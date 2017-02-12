@@ -1,0 +1,488 @@
+/*DESKTOP & IPAD PRO HORIZONTAL*/
+/*body {
+	font-family: Raleway;
+}*/
+
+.bio {
+	font-family: Raleway;
+	font-size: 18px;
+}
+
+#summary {
+	padding: 0px;
+}
+
+html {
+	width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #0288D1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+	color: white;
+	font-size: 16px;
+}
+
+.fixedBtn {
+	background-color: #4ABDAC;
+	border: none;
+	margin-right: 10%;
+	color: white;
+	font-size: 16px;
+}
+
+#fixedNav {
+	background-color: #4ABDAC;
+	border-bottom: 1px solid #008F95;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+	padding-top: 10px;
+}
+
+#highlights {
+	text-align: center;
+}
+
+.homeNav {
+	background-color: white;
+	border: none;
+	border-top: 1.5px solid #A7FFEB;
+	border-bottom: 2px solid #B4FFDA;
+	font-size: 18px;
+	border-radius: 0;
+	margin-top: 3.5%;
+	margin-bottom: 0px;
+}
+
+#quote {
+	letter-spacing: 1.5%;
+	color: #008F95;
+	text-align: center;
+	background-color: #B2DFDB;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	font-family: Anton;
+	font-style: italic;
+	border-bottom: 2px solid #B4FFDA;
+}
+
+.addDetails {
+	text-align: center;
+	padding: 1%;
+}
+
+#graston {
+	background-image: url("../images/graston.jpeg");
+	min-height: 235px;
+}
+
+#art {
+	background-image: url("../images/active_release.jpeg");
+	min-height: 235px;
+}
+
+#homeContent {
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+
+#makeApp {
+	color: white;
+	margin-top: 260px;
+	width:80%;
+	margin-left: 10%;
+}
+
+#mapView {
+	width: 100%;
+	min-height: 300px; 
+	border: 1px solid grey;
+}	
+
+#officeView {
+	width: 100%;
+	min-height: 380px;
+	border: 1px solid grey; 
+}	
+
+#bookBtn {
+		text-align: center;
+		border: 1px solid #40c4ff;
+		color: white;
+		background-color: #0288D1;
+		font-family: arial;
+		border-radius: 24px;
+		font-size: 25px;
+		width:35%;
+		margin-left: 32.5%;
+		margin-top: 30px;
+	}
+
+#logoMain {
+	margin-top: 0%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 12%;
+}
+
+#logoAlt {
+	margin-top: 0%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 12%;
+}
+
+.listItems {
+	color: black;
+	font-weight: bold;
+	font-style: italic; 
+}
+
+#credentials {
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#methods {
+	margin-top: 5%;
+	color: black;
+}
+
+.carousel-inner {
+	border: 1px solid grey;
+	width: 300px;
+}
+
+ul {
+	color: white;
+}
+
+#services {
+	color: black;
+}
+
+.techniques {
+	color: black;
+	font-family: Anton;
+	font-size: 26px;
+	margin-top: 27%;
+}
+
+#links {
+	padding-top: 1.5%;
+	margin-right: 2%;
+}
+
+#jumboMain {
+	background-color: white;
+	background-size: 100%;
+	height:525px;
+	color: white;
+	background-image: url("../images/testa.jpg");
+	margin-bottom: 0%;
+	font-family: Anton;
+	letter-spacing: 2px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#introVideo {
+	width:100%;
+	min-height: 525px;
+	padding: 0px;
+	margin: 0px;
+}
+.nopadding {
+	padding:0px;
+}
+
+#feed {
+	width:80%;
+	margin-left: 10%;
+}
+
+#feedDiv {
+	background-color: #B2DFDB;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	font-style: italic;
+}
+
+#headline {
+	margin-top: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 2px solid #B4FFDA;
+	background-color: #457BB8;
+	color: white; 
+}
+
+.subHeaders {
+	text-align: center;
+	background-color: #B2DFDB;
+	padding: 1%;
+	border: 1px solid #B4FFDA;
+	margin-top: 0%;
+	font-family: Oswald;
+}
+
+.careInfo {
+	font-size: 15px;
+}
+
+#tagline {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Oswald;
+	font-weight: bold;
+	margin-bottom: 2.5%;
+}
+
+.glyphicon {
+	color: white;
+}
+
+.emailUs {
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	font-family: Oswald;
+}
+
+#closed {
+	text-align: center;
+	padding: 2%;
+}
+
+#et_contact_form {
+	background-color: 	#E0E0E0 ;
+	border-radius: 15px;
+	border: 1px solid #E0F7FA;
+	padding: 3%;
+	margin-top: 70px;
+	margin-bottom: 5%;
+	min-height: 400px;
+	width: 100%;
+}
+
+.formBtns {
+	background-color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+#et_contact_reset {
+	margin-right: 120px;
+}
+
+footer {
+	width: 100%;
+	border: 1px solid #B4FFDA;
+	text-align: center;
+	color: black;
+	clear: both;
+	padding-bottom: .5%;
+}
+
+.h5 {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.details {
+	margin-bottom: 1px;
+	color: black;
+	font-size: 14px;
+}
+
+#footerSig {
+	font-family: Sacramento;
+	font-size: 20px;
+	margin-top: .5%;
+}
+.navbar-header
+{
+	background-color: white;
+}
+
+
+#appointments{
+	/*margin-top:75px;*/
+	padding-bottom: 100px;
+}
+
+.testImg {
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 10px;
+}
+
+.is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+/*IPAD PRO VERTICAL*/
+@media only screen and (max-width:1100px) {
+
+	#fixedNav {
+		display: none;
+	}
+
+	.homeNav {
+		margin-top: 0%;
+	}
+	
+	h3 {
+		display: none;
+	}
+
+	#jumboMain {
+		background-image: none;
+		background-color: #1D2731;
+	}
+
+	#logoMain {
+		margin-left: 15%;
+		margin-top: 2%;
+		width: 60%;
+	}
+
+	#toggleNav {
+		margin-top: 4%;
+		margin-right: 8%;
+	}
+
+	#bookBtn {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+/* END IPAD PRO VERTICAL*/
+
+/*IPAD VERTICAL*/
+@media only screen and (max-width:1050px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 50%;
+		width: 35%;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 12%;
+		width: 50%;
+	}
+
+	#makeApp {
+		margin-top: 4%;
+	}
+	
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 3%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#jumboMain {
+		background-image: url("../images/test.jpg");
+	}
+
+}
+
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:700px) {
+
+	#logoMain {
+		margin-left: 8%;
+		width: 50%;
+	}
+
+}
+
+/*MOBILE VERTICAL*/
+@media only screen and (max-width:500px) {
+
+	#makeApp {
+		margin-top: 10%;
+	}
+
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 4%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#logoMain {
+		margin-left: 10%;
+		margin-top: 6%;
+		margin-bottom: 2%;
+		width: 65%;
+	}
+
+	#toggleNav {
+		margin-top: 6%;
+		margin-right: 8%;
+	}
+
+}
+
+/*IPHONE5 VERTICAL*/
+@media only screen and (max-width:350px) {
+
+	#bookBtn {
+		font-size: 16px;
+	}
+	
+
+}
+/*END MOBILE VERTICAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
