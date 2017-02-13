@@ -1,5 +1,9 @@
 /*DESKTOP & IPAD PRO HORIZONTAL*/
 
+.secondarySubs {
+	clear: both;
+}
+
 .bio {
 	font-family: Raleway;
 	font-size: 18px;
@@ -99,6 +103,11 @@ a {
 	margin-left: 10%;
 }
 
+#drxTech {
+	background-image: url("../images/drx9000.jpg");
+	min-height: 375px;
+}
+
 #mapView {
 	width: 100%;
 	min-height: 300px; 
@@ -115,7 +124,7 @@ a {
 		text-align: center;
 		border: 1px solid #40c4ff;
 		color: white;
-		background-color: #0288D1;
+		background-color: #457BB8;
 		font-family: arial;
 		border-radius: 24px;
 		font-size: 25px;
@@ -165,6 +174,7 @@ ul {
 
 #services {
 	color: black;
+	font-size: 15px;
 }
 
 .techniques {
