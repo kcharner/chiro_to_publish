@@ -1,0 +1,54 @@
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:700px) {
+
+	#logoMain {
+		margin-left: 8%;
+		width: 50%;
+	}
+
+}
+
+/*MOBILE VERTICAL*/
+@media only screen and (max-width:500px) {
+
+	#makeApp {
+		margin-top: 10%;
+	}
+
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 4%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#logoMain {
+		margin-left: 10%;
+		margin-top: 6%;
+		margin-bottom: 2%;
+		width: 65%;
+	}
+
+	#toggleNav {
+		margin-top: 6%;
+		margin-right: 8%;
+	}
+
+}
+
+/*IPHONE5 VERTICAL*/
+@media only screen and (max-width:350px) {
+
+	#bookBtn {
+		font-size: 16px;
+	}
+	
+
+}
+/*END MOBILE VERTICAL*/

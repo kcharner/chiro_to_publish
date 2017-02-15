@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Anton|Passion+One|Sacramento|Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -41,7 +43,7 @@
 		        	<li class="dropdown"> <!--first dropdown-->
 		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chiropractic Care<span class="caret"></span></a>
 		                <ul class="dropdown-menu">
-		                    <li><a href="care.html">Our Services</a></li>
+		                    <li><a href="care.html">Services</a></li>
 		                    <li><a href="care.html#performance-care">Performance Care</a></li>
 		                    <li><a href="care.html#specialty-techniques">Specialty Techniques</a></li>
 		                    <li><a href="care.html#spinal-decompression">Spinal Decompression</a></li>
@@ -65,22 +67,90 @@
 	<section id="aboutContent">
 		<h1 id="headline">Testimonials</h1>
 		 <!--Testimonial 1-->
-		<div class="row is-table-row">
+		<div class="row">
+<!-- remember, tim, you took out the class is-row-table because it nullified the columns -->
           <div class="col-lg-4">
-            <p>Eddie Royal</p>
-            <img class="testImg" src="assets/images/testimg1.jpg">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Eddie Royal</h4>
+            	<img class="testImg img-rounded" src="assets/images/testimg1.jpg">
+            	<img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+            
           </div>
           <!--Testimonial 2-->
           <div class="col-lg-4">
-            <p>Takeo Spikes</p>
-            <img class="testImg" src="assets/images/testimg2.jpg">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Takeo Spikes</h4>
+	            <img class="testImg img-rounded" src="assets/images/testimonials/takeo-spikes.jpg">
+	            <p id="takeo-spikes" class="testimonial-text">San Diego Chargers Linebacker “Thanks Doc! for helping me keep the big body grinding”</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
           </div>
            <!--Testimonial 3-->
-          <div class="col-lg-4 ">
-            <p>Ronnie Brown</p>
-            <img class="testImg" src="assets/images/testimg3.jpg">
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Ronnie Brown</h4>
+            	<img class="testImg img-rounded" src="assets/images/testimonials/ronnie-brown.jpg">
+	            <p class="testimonial-text">San Diego Chargers Running Back: “Thanks for everything Doc!”</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
           </div>
         </div> 
+        <!-- row two -->
+		<div class="row">
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Rogerio Nogueira</h4>
+            	<img class="testImg img-rounded" src="assets/images/testimonials/rogerio-nogueira.jpg">
+            	<p class="testimonial-text">“I’ve been to other Chiropractors and none of them have been able to adjust my spine that good! Also, Dr Brent’s soft tissue treatments are second to none.” – Rogerio ‘Lil Nog’ Nogueira</p>
+            	<img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Junior Dos Santos</h4>
+	            <img class="testImg img-rounded" src="assets/images/testimonials/junior-dos-santos.jpg">
+	            <p id="takeo-spikes" class="testimonial-text">San Diego Chargers “Dr. Brent really understands injuries. His treatments are amazing and unlike any I’ve ever had” <br>-Junior Dos Santos”</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Lyoto Machida</h4>
+            	<img class="testImg img-rounded" src="assets/images//testimonials/lyoto-machida.jpg">
+	            <p class="testimonial-text">Treating Lyoto Machida prior to his UFC 123 fight against Quinton “Rampage” Jackson.</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+        </div>
+        <!-- row three -->
+    	<div class="row">
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Christiane Cyborg</h4>
+            	<img class="testImg img-rounded" src="assets/images/testimonials/christiane-cyborg.jpg">
+            	 <p class="testimonial-text">Treating Cristiane Cyborg Santos prior to her fight against Marloes Coenen at Strike Force Miami</p>
+            	<img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Nick Diaz</h4>
+	            <img class="testImg img-rounded" src="assets/images/testimonials/nick-diaz.jpg">
+	            <p class="testimonial-text">Treating Strikeforce Welterweight Champion, Nick Diaz, before his fight against Paul Daley in Strikeforce San Diego.</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+          <div class="col-lg-4">
+          	<div class="testimonial-tag">
+          		<h4 class="testimonial-header">Phil Davis</h4>
+            	<img class="testImg img-rounded" src="assets/images/testimonials/phil-davis.jpg">
+	            <p class="testimonial-text">Treating Phil Davis prior to his fight against Antonio Rogerio Nogueira in UFC 129.</p>
+	            <img src="assets/images/down-arrow.png" class="down-arrow" data-state="inactive">
+          	</div>
+          </div>
+        </div> 
+
 	</section>
 	<!--start footer-->
 	<footer class="footer">
@@ -106,7 +176,8 @@
         	</div> -->
        	</div>
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/testimonial.js"></script>
 </body>
 </html>

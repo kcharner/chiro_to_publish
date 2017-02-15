@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Anton|Sacramento|Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/parallax.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -62,12 +64,13 @@
 	    	</div>
 	 	</div>
 	</nav>
+
 	<div>
 		<h1 id="headline">Chiropractic Care</h1>
 		<section id="our-services" class="container content offset">
 			<h2 class="subHeaders">Our Services</h2>
-			<div>
-				<h4 id="secondarySubs">We Specialize in Treating:</h4>
+			<div class ="container col-lg-4">
+				<h4 id="secondarySub">We Specialize in Treating A Wide Range of Ailments</h4>
 				<div id="image-carousel" class="col-sm-2 carousel slide">
 				 	<div class="carousel-inner" role="listbox">
 				    	<div class="item active">
@@ -85,8 +88,8 @@
 				  	</div>
 				</div>
 			</div>
-			<div>
-				<ul class="col-sm-3 col-sm-offset-1 careInfo" id="services">
+			<div class ="container col-lg-8">
+				<ul class="col-sm-4" id="services">
 					<li>Sports Injuries</li>
 					<li>Non-surgical Spinal Decompression</li>
 					<li>Back Pain</li>
@@ -96,9 +99,9 @@
 					<li>Tendonitis, Tendonosis</li>
 					<li>Epicondylitis (golfer's elbow, tennis elbow)</li>
 					<li>Jumper's Knee</li>
-					<li>Carpal Tunnel Syndrome</li>
 				</ul>
-				<ul class="col-sm-3 careInfo" id="services">
+				<ul class="col-sm-4" id="services">
+					<li>Carpal Tunnel Syndrome</li>
 					<li>Rotator Cuff Pain</li>
 					<li>Impingement Syndrome</li>
 					<li>Nerve Entrapments</li>
@@ -110,7 +113,7 @@
 					<li>Sciatica</li>
 					<li>Headaches</li>	
 				</ul>
-				<ul class="col-sm-3 careInfo" id="services">	
+				<ul class="col-sm-4" id="services">	
 					<li>Carpal Tunnel Syndrome</li>
 					<li>Whiplash</li>
 					<li>Neck Pain</li>
@@ -125,9 +128,10 @@
 				</ul>
 			</div>
 			<div class="col-lg-12">
-				<button id="bookBtn">View More</button>
+				<button type="button" id="bookBtn" data-toggle="modal" data-target="#myModal">View More</button>
 			</div>
-				<div class="modal fade">
+
+				<div id="myModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
@@ -137,7 +141,7 @@
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				        <ul>
+				        <ul class="listItems">
 				        	<li>Chiropractic Adjustments (Diversified & pettibon technique)</li>
 				        	<li>Graston technique (certified)</li>
 				        	<li>Active Release Technique provider</li>
@@ -149,7 +153,6 @@
 				        </ul>
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-primary">Save changes</button>
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				      </div>
 				    </div>
@@ -161,19 +164,20 @@
 		<div class="parallax">
 		 	<div class="parallax-inner"></div>
 		</div>
-		<section id="performance-care" class="container content offset">
+<!--Performance Care Section-->		
+	<section id="performance-care" class="container content offset">
 			<h2 class="subHeaders">Performance Care</h2>
-			<div>
+			<div class="col-lg-10">
 				<h4>What Is Performance Care?</h4>
 				<p class="careInfo">Performance care is a soft tissue treatment to improve an athlete’s performance in his or her chosen sport. Difficult training regimens, repetitive motions (swimming, running, cycling, MMA,) and overworked muscles all place a great deal of stress on an athlete’s body.</p>
 			</div>
 			<div class="col-lg-12">
-				<div class="col-sm-5 col-sm-offset-1">
+				<div class="col-lg-6">
 					<h4>The Problem: Soft Tissue Damage</h4>
 					<p class="careInfo">Repetitive motion, constant tension, and pressure often result in the inflammation and swelling of soft tissue. The body responds to this inflammation by laying down scar tissue (cross fibers across the tissue) in an attempt to stabilize the affected area.</p>
 					<p class="careInfo">Even though physical training factors can be modified, the biomechanical restrictions that have been created in the athlete’s body are seldom addressed. These factors lead to future injuries and inhibit the athlete from reaching his or her full performance potential.</p>
 				</div>
-				<div class="col-sm-4 col-sm-offset-1">
+				<div class="col-lg-4 col-lg-offset-1">
 					<h5>Scar Tissue: </h5>
 					<ul class="listItems">
 						<li>Restricts motion</li>
@@ -184,8 +188,8 @@
 					</ul>
 				</div>
 			</div>
-			<div>
-				<div class="col-lg-5 col-lg-offset-1">
+			<div class="col-lg-12">
+				<div class="col-lg-6">
 					<h4>The Solution: Performance Care</h4>
 					<p class="careInfo">Before treatment takes place, an extremely specific examination and diagnosis must be performed. It is important to look past the initial point of pain to identify other structures that are involved in the kinetic chain.</p>
 					<p class="careInfo">Effective treatment of any soft tissue injury (ligaments, muscles, blood vessels, fascia and nerves) requires an alteration in tissue structure to break up the restrictive cross-fiber adhesions and restore normal function to the affected soft tissue areas.</p>
@@ -200,119 +204,144 @@
 				</div>
 			</div>
 			<br>
-			<a href="#top-link-target" class="nav-link top-link">Top</a>
+			<span class="col-lg-12"><a href="#top-link-target" class="nav-link top-link">Top</a></span>
 		</section>
+
 		<div class="parallax">
 		 	<div class="parallax-inner"></div>
 		</div>
+
+<!--speciality Techniques Section-->	
 		<section id="specialty-techniques" class="container content offset">
 			<h2 class="subHeaders">Specialty Techniques</h2>
-			<div class="container col-lg-6" id="graston">
+			
+			<div data-toggle="modal" data-target="#grastModal" class="container col-lg-6" id="graston">
 				<h4 class="techniques">Graston Technique</h4>
 			</div>
-			<!-- to be used for Graston modal-->
-			<!-- <div class="modal fade">
+			
+			<div id="grastModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title">Our Services Include:</h5>
+				        <h5 class="modal-title">Graston Technique</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				        <ul>
-				        	<li>Chiropractic Adjustments (Diversified & pettibon technique)</li>
-				        	<li>Graston technique (certified)</li>
-				        	<li>Active Release Technique provider</li>
-				        	<li>Massage therapy (sports/deep tissue) HHP</li>
-				        	<li>Kinesiotaping</li>
-				        	<li>Nutrition and Exercise counseling</li>
-				        	<li>Wellness Planning</li>
-				        	<li>Posture rehabilitation</li>
-				        </ul>
+					      <p>The Graston Technique® incorporates a patented form of instrument-assisted soft tissue mobilization that enables clinicians to effectively detect and treat scar tissue and restrictions that affect normal function.</p>
+					      <h5>This technique: </h5>
+					      <ul class="listItems">
+						      <li>Separate and break down collagen cross-links, and splays and stretches</li> 
+						      <li>connective tissue and muscle fibers</li>
+						      <li>Increases skin temperature</li>
+						      <li>Facilitates reflex changes in the chronic muscle holding pattern</li>
+						      <li>Alters spinal reflux activity (facilitated segment)</li>
+						      <li>Increases the rate and amount of blood flow to and from the area</li>
+						      <li>Increases cellular activity in the region, including fibroblasts and mast cells</li>
+						      <li>Increases histamine response secondary to mast cell activity</li>
+					      </ul>
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-primary">Save changes</button>
+				 
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				      </div>
 				    </div>
 				  </div>
-				</div> -->
-			<div class="container col-lg-6" id="art">
+		
+				
+			</div>
+
+			<div data-toggle="modal" data-target="#ARTModal" class="container col-lg-6" id="art">
 				<h4 class="techniques">Active Release Technique</h4>
 			</div>
-			<!--to be used for ART modal-->
-			<!-- <div class="modal fade">
+
+			<div id="ARTModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title">Our Services Include:</h5>
+				        <h5 class="modal-title">Active Release Technique (ART)</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				        <ul>
-				        	<li>Chiropractic Adjustments (Diversified & pettibon technique)</li>
-				        	<li>Graston technique (certified)</li>
-				        	<li>Active Release Technique provider</li>
-				        	<li>Massage therapy (sports/deep tissue) HHP</li>
-				        	<li>Kinesiotaping</li>
-				        	<li>Nutrition and Exercise counseling</li>
-				        	<li>Wellness Planning</li>
-				        	<li>Posture rehabilitation</li>
-				        </ul>
+				        <p>A state-of-the-art soft tissue system that treats problems with muscles, tendons, ligaments, fascia and nerves. ART refers to the manual massage technique for stretching the connective tissue and releasing adhesions between it and muscles,tendons, nerves, membranes and bones. Injuries, stress, trauma, overuse and poor posture can cause these restrictions. Every ART session is actually a combination of examination and treatment.</p>
+				        <p>The ART provider uses his or her hands to evaluate the texture, tightness and movement of muscles, fascia, tendons, ligaments and nerves. Abnormal tissues are treated by combining precisely directed tension with very specific patient movements. ART® finds the specific tissues that are restricted and physically works them back to its normal texture, tension, and length by using various hand positions and soft tissue manipulation methods. These treatment protocols – over 500 of them – are unique to ART. They allow providers to identify and correct the specific problems that are affecting each individual patient.</p>
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-primary">Save changes</button>
+				 
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				      </div>
 				    </div>
 				  </div>
-				</div> -->
+				
+				
+			</div>
 			<br>
 			<a href="#top-link-target" class="nav-link top-link">Top</a>
 		</section>
+
 		<div class="parallax">
 		 	<div class="parallax-inner"></div>
 		</div>
+
+<!--Spinal Decompression Section-->	
 		<section id="spinal-decompression" class="container content offset">
 			<h2 class="subHeaders">Spinal Decompression</h2>
 			<div class="container">
 				<div class="jumbotron" id="drxTech">
 					<h4>What is non-surgical spinal decompression?</h4>
-					<button id="bookBtn">Learn More</button> <!--need to fix id vs class here-->
 				</div>
-				<!--to be used for drx9000 modal-->
-				<!-- <div class="modal fade">
+			<div class="col-lg-12">
+				<button type="button" id="bookBtn" data-toggle="modal" data-target="#drxModal">FAQs</button>
+			</div>
+				<div id="drxModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title">Our Services Include:</h5>
+				        <h5 class="modal-title">Frequently Asked Questions</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				        <ul>
-				        	<li>Chiropractic Adjustments (Diversified & pettibon technique)</li>
-				        	<li>Graston technique (certified)</li>
-				        	<li>Active Release Technique provider</li>
-				        	<li>Massage therapy (sports/deep tissue) HHP</li>
-				        	<li>Kinesiotaping</li>
-				        	<li>Nutrition and Exercise counseling</li>
-				        	<li>Wellness Planning</li>
-				        	<li>Posture rehabilitation</li>
-				        </ul>
+				      	<h5>Is this right for me?</h5>
+				        <p>Although spinal decompression therapy is certainly a revolution in effective, non-invasive treatment for severe back and neck pain, it is not for everyone. Spinal decompression therapy is usually recommended for patients who have low back or neck pain, who have failed conventional therapy (physiotherapy and chiropractic), and who are considering surgery. Typically, the people who tend to have the best results fall into one of the following categories:
+				        	<ul>
+								<li>Pain due to herniated and bulging lumbar/cervical discs that is more than four weeks old.</li>
+								<li>Sciatica</li>
+								<li>Spinal Stenosis</li>
+								<li>Facet Syndrome</li>
+								<li>Recurrent pain from a failed back surgery that is more than six months old.</li>
+								<li>Persistent pain from degenerated disc disease.</li>
+								<li>Patients available for four weeks of treatment protocol.</li>
+								<li>Patients at least 18 years of age.</li>
+							</ul>
+						<p>There are some cases where people should not undergo spinal decompression therapy. These include:
+							<ul>
+								<li>Pregnancy</li>
+								<li>Spinal cancer</li>
+								<li>Severe osteoporosis</li>
+								<li>Abdominal aortic aneurysm</li>
+								<li>Abdominal surgery within last years</li>
+								<li>Lumbar fusion of the affected symptomatic level</li>
+								<li>Unstable spondylolisthesis</li>
+								<li>Disc infections</li>
+								<li>Severe peripheral neuropathy</li>
+								<li>Osteomyelitis</li>
+								<li>Meningitis</li>
+							</ul>
+				        </p>
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-primary">Save changes</button>
+				 
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				      </div>
 				    </div>
 				  </div>
-				</div> -->
+				</div> 
+				
 			</div>
 			<br>
 			<a href="#top-link-target" class="nav-link top-link">Top</a>
@@ -320,6 +349,8 @@
 		<div class="parallax">
 		 	<div class="parallax-inner"></div>
 		</div>
+
+<!-- History Section -->
 		<section id="history" class="container content offset">
 			<h2 class="subHeaders">History of Chiropractic Care</h2>
 			<div>
@@ -348,14 +379,10 @@
 			<br>
 			<a href="#top-link-target" class="nav-link top-link">Top</a>
 		</section>
-		<!-- <div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<a href="#top-link-target" class="nav-link top-link">Top</a>
-			</div>
-		</div> -->
-	</div>	
-	<!--start footer-->
-	<footer class="footer">
+</div>	
+
+<!--start footer-->
+<footer class="footer">
     	<div class="container">
     		<div class="col-lg-4">
     			<h5 class="h5">LOCATION</h5>
@@ -377,7 +404,8 @@
         		<p class="text-muted" id="footerSig">Copyright 2017 kac</p>
         	</div> -->
        	</div>
-    </footer>
+</footer>
+
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/parallax.js"></script>

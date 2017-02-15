@@ -1,0 +1,83 @@
+/*IPAD PRO VERTICAL*/
+@media only screen and (max-width:1100px) {
+
+	#fixedNav {
+		display: none;
+	}
+
+	.homeNav {
+		margin-top: 0%;
+	}
+	
+	h3 {
+		display: none;
+	}
+
+	#jumboMain {
+		background-image: none;
+		background-color: #1D2731;
+	}
+
+	#logoMain {
+		margin-left: 15%;
+		margin-top: 2%;
+		width: 60%;
+	}
+
+	#toggleNav {
+		margin-top: 4%;
+		margin-right: 8%;
+	}
+
+	#bookBtn {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
+/* END IPAD PRO VERTICAL*/
+
+/*IPAD VERTICAL*/
+@media only screen and (max-width:1050px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 50%;
+		width: 35%;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+
+	#logoMain {
+		margin-top: 1%;
+		margin-left: 12%;
+		width: 50%;
+	}
+
+	#makeApp {
+		margin-top: 4%;
+	}
+	
+	#bookBtn {
+		text-align: center;
+		border: none;
+		background-color: #0375B4;
+		font-family: arial;
+		margin-top: 3%;
+		font-size: 20px;
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+
+	#jumboMain {
+		background-image: url("../images/test.jpg");
+	}
+
+}
