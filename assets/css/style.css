@@ -178,7 +178,7 @@ footer {
 #jumboMain {
 	background-color: white;
 	background-size: 100%;
-	height:525px;
+	min-height:525px;
 	color: white;
 	background-image: url("../images/testa.jpg");
 	margin-bottom: 0%;
@@ -263,7 +263,6 @@ footer {
 #tagline {
 	text-align: center;
 	font-weight: bold;
-	font-size: 25px;
 	font-family: Oswald;
 	font-weight: bold;
 	margin-bottom: 2.5%;
@@ -282,6 +281,10 @@ footer {
 
 #aboutStatement{
 	text-indent: 40px;
+}
+
+#about {
+	display: none;
 }
 
 /*end ABOUT file*/

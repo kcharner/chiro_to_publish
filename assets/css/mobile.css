@@ -11,33 +11,106 @@
 /*MOBILE VERTICAL*/
 @media only screen and (max-width:500px) {
 
-	#makeApp {
-		margin-top: 10%;
-	}
-
-	#bookBtn {
-		text-align: center;
-		border: none;
-		background-color: #0375B4;
-		font-family: arial;
-		margin-top: 4%;
-		font-size: 20px;
-		width: 60%;
-		margin-left: 20%;
-		border-radius: 24px; 
-		padding-top: 1%
-	}
-
 	#logoMain {
-		margin-left: 10%;
-		margin-top: 6%;
+		margin-left: 7%;
+		margin-top: 3%;
 		margin-bottom: 2%;
 		width: 65%;
 	}
 
-	#toggleNav {
-		margin-top: 6%;
-		margin-right: 8%;
+	#logoAlt {
+		margin-top: 0%;
+	}
+
+	button.navbar-toggle.collapsed {
+		margin-top: 10%;
+		margin-right: 5%;
+		border: 1px solid #B4FFDA;
+	}
+
+	#jumboMain {
+		min-height: 100px;
+		background-image: none;
+		background-color: #B2DFDB;
+	}
+
+	#makeApp {
+		margin-top: 2%;
+		width: 70%;
+		margin-left: 15%;
+		text-align: center;
+	}
+
+	#bookBtn {
+		margin-top: 1%;
+		margin-bottom: 3%;
+		font-size: 20px;
+		width: 40%;
+		margin-left: 30%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+	
+	#introVideo {
+		width: 100%;
+	}
+
+	#rss {
+		display: none;
+	}
+
+	#secondarySub {
+		text-align: center;
+	}
+
+	#image-carousel-care {
+		padding-left: 3%;
+	}
+
+	#image-carousel-about {
+		padding-left: 6%;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	.techniques {
+		margin-top: 41%;
+		text-align: left;
+	}
+
+	.careInfo {
+		text-indent: 30px;
+	}
+
+	.bio {
+		text-indent: 30px;
+	}
+
+	#methods {
+		width: 70%;
+		margin-left: 15%;
+		font-size: 15px;
+	}
+
+	#about {
+		text-align: center;
+		display: block;
+		margin-bottom: 5%;
+		background-color: #B2DFDB;
+		padding: 1%;
+		border: 1px solid #B4FFDA;
+		margin-top: 0%;
+		font-family: Oswald;
+		font-size: 24px;
+	}
+
+	.intakeForm {
+		text-align: center;
+		width: 58%;
+		margin-left: 21%;
+		margin-bottom: 5%;
 	}
 
 }

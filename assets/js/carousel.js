@@ -1,3 +1,7 @@
 $(document).ready(function(){
-  		$("#image-carousel").carousel();
+  		$("#image-carousel-care").carousel();
+});
+
+$(document).ready(function(){
+  		$("#image-carousel-about").carousel();
 });
