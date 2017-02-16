@@ -53,7 +53,7 @@
 
 @media only screen and (max-width:750px) {
 
-	#logoMain {
+	/*#logoMain {
 		margin-top: 1%;
 		margin-left: 12%;
 		width: 50%;
@@ -81,3 +81,60 @@
 	}
 
 }
+*/
+
+	#logoMain {
+		padding: 1%;
+		margin-left: 7%;
+		width: 60%;
+	}
+
+	#logoAlt {
+		padding: 2%;
+		margin-left: 7%;
+		width: 60%;
+	}
+
+	button.navbar-toggle.collapsed {
+		margin-top: 6%;
+		margin-right: 12%;
+		border: 1px solid grey;
+	}
+
+	#makeApp {
+		margin-top: 1%;
+		text-align: center;
+	}
+
+	#jumboMain {
+		min-height: 80px;
+		background-image: none;
+		background-color: #B2DFDB;
+	}
+
+	#bookBtn {
+		margin-top: 0%;
+		margin-bottom: 1%;
+		font-size: 25px;
+		width: 40%;
+		margin-left: 30%;
+		border-radius: 24px; 
+		padding-top: 1%
+	}
+	
+	#rss {
+		display: none;
+	}
+
+	#image-carousel-about {
+		width: 60%;
+		margin-left: 20%;
+		padding-left: 6.5%;
+	}
+
+	#aboutStatement {
+		text-indent: 0%;
+	}
+
+}
+
