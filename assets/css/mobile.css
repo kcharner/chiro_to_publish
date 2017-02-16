@@ -1,6 +1,14 @@
 /*MOBILE HORIZONTAL*/
 @media only screen and (max-width:700px) {
 	
+	#fixedNav {
+		display: none;
+	}
+
+	.navbar-header {
+		width: 100%;
+	}
+
 	#logoMain {
 		padding: 1%;
 		margin-left: 7%;
