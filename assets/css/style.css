@@ -124,7 +124,7 @@ footer {
 
 /*INDEX & CARE files*/
 
-#bookBtn {
+.bookBtn {
 		text-align: center;
 		border: 1px solid #40c4ff;
 		color: white;
@@ -220,7 +220,7 @@ footer {
 
 /*CARE file*/
 
-#services {
+.services {
 	color: black;
 	font-size: 15px;
 }
@@ -233,23 +233,41 @@ footer {
 	margin-top: 4%;
 }
 
+#treatment {
+	width: 80%;
+	margin-left: 10%; 
+	font-size: 17px;
+}
+
+.noIndent {
+	text-indent: 0px;
+	font-size: 20px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.modalHeads {
+	font-size: 30px;
+}
+
+.modalBtn {
+	width: 20%;
+	margin-left: 40%;
+}
+
 .techniques {
 	color: black;
 	font-family: Anton;
 	font-size: 26px;
-	margin-top: 27%;
+	text-align: center;
+}
+
+.techPics {
+	width: 100%;
+	min-height: 235px;
 }
 
 #graston, #art { cursor: pointer; }
-
-#graston {
-	min-height: 235px;
-}
-
-#art {
-	background-image: url("../images/active_release.jpeg");
-	min-height: 235px;
-}
 
 #drxTech {
 	background-image: url("../images/drx9000.jpg");
@@ -295,7 +313,7 @@ footer {
 	background-color: #F7F5E6;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	border: 1px solid #4A4444;
+	border: 1px solid grey;
 }
 
 #credentials {
@@ -307,14 +325,16 @@ footer {
 #aboutDiv {
 	margin-top: 13%;
 	margin-left: 0%;
+	font-weight: bold;
 	font-size: 16px;
 	color: #343956;
 }
 
 #methods {
 	margin-top: 10%;
-	margin-left: 4.5%;
-	list-style-type:disc;
+	margin-left: 3%;
+	padding-left: 5%;
+	list-style-type: disc;
 }
 
 #about {

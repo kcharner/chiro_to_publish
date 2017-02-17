@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/parallax.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
-<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -89,7 +89,7 @@
 				</div>
 			</div>
 			<div class ="container col-lg-8" id="offers">
-				<ul class="col-sm-4" id="services" style="list-style-type:disc">
+				<ul class="col-sm-4 services" style="list-style-type:disc">
 					<li>Whiplash</li>
 					<li>Neck Pain</li>
 					<li>Stiff Neck</li>
@@ -101,7 +101,7 @@
 					<li>Hip Pain</li>
 					<li>Sciatica</li>
 				</ul>
-				<ul class="col-sm-4" id="services" style="list-style-type:disc">
+				<ul class="col-sm-4 services" style="list-style-type:disc">
 					<li>Carpal Tunnel Syndrome</li>
 					<li>Rotator Cuff Pain</li>
 					<li>Impingement Syndrome</li>
@@ -113,7 +113,7 @@
 					<li>Spinal Degeneration</li>
 					<li>Sports Injuries</li>	
 				</ul>
-				<ul class="col-sm-4" id="services" style="list-style-type:disc">
+				<ul class="col-sm-4 services" style="list-style-type:disc">
 					<li>Jumper's Knee</li>
 					<li>Headaches</li>
 					<li>Back Pain</li>
@@ -121,40 +121,47 @@
 					<li>Overuse Injuries</li>
 					<li>CTI: Cumulative Trauma Injury</li>
 					<li>Tendonitis, Tendonosis</li>
+					<li>Sprains/Strains</li>
 					<li>Epicondylitis (golfer's elbow, tennis elbow)</li>
-					<li>Sprains/Strains of Joints &amp; Muscles</li>
 				</ul>
 			</div>
 			<div class="col-sm-12">
-				<button type="button" id="bookBtn" data-toggle="modal" data-target="#myModal">Treatments</button>
+				<button type="button" class="bookBtn modalBtn" data-toggle="modal" data-target="#myModal">Services</button>
 			</div>
+			<!-- start services modal -->
 			<div id="myModal" class="modal fade">
-				  <div class="modal-dialog" role="document">
+				<div class="modal-dialog" role="document">
 				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title subHeaders">Our Services Include:</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-				        <ul class="col-sm-4" id="services">
-							<li>Chiropractic Adjustments</li>
-							<li>Graston Technique</li>
-							<li>Active Release Technique</li>
-							<li>Massage Therapy</li>
-							<li>Kinesiotaping</li>
-							<li>Nutrition and Exercise Counseling</li>
-							<li>Wellness Planning</li>
-							<li>Posture Rehabilitation</li>
-						</ul>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				      </div>
+				      	<div class="modal-header">
+				        	<h5 class="modal-title subHeaders modalHeads">Services</h5>
+				      	</div>
+				      	<div class="modal-body">
+					      	<p class="careInfo noIndent">At Evolve Sports Chiropractic, we implement a holistic approach to your treatment and care plan. Our services include: 
+						      	<ul class="careInfo" id="treatment">
+								    <li>Chiropractic Adjustments</li>
+									<li>Sports Massage</li>
+									<li>Massage Therapy</li>
+									<li>Graston Technique</li>
+									<li>Active Release Technique</li>
+									<li>Physical Rehabilitation Techniques</li>
+									<li>Non-surgical Spinal Decompression</li>
+									<li>Pain Management</li>
+									<li>Therapeutic Exercise</li>
+									<li>Posture Rehabilitation</li>
+									<li>Kinesiotaping</li>
+									<li>Nutrition and Exercise Counseling</li>
+									<li>Wellness Planning</li>
+									<li>Stress Management</li>
+						   		</ul>
+					      	</p>
+				      	</div>
+				      	<div class="modal-footer">
+				        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      	</div>
 				    </div>
-				  </div>
 				</div>
+			</div>
+			<!-- end services modal -->
 			<br>
 			<a href="#top-link-target" class="nav-link top-link">Top</a>
 		</section>
@@ -212,7 +219,7 @@
 		<section id="specialty-techniques" class="container content offset">
 			<h2 class="subHeaders">Specialty Techniques</h2>
 			<div data-toggle="modal" data-target="#grastModal" class="container col-lg-6" id="graston">
-				<img src="assets/images/graston.jpeg">
+				<img class="techPics" src="assets/images/graston.jpeg">
 				<h4 class="techniques">Graston Technique</h4>
 			</div>
 			<!-- Graston modal -->
@@ -220,15 +227,11 @@
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title subHeaders">Graston Technique</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
+				        <h5 class="modal-title subHeaders modalHeads">Graston Technique</h5>
 				      </div>
 				      <div class="modal-body">
-					      <p>The Graston Technique® incorporates a patented form of instrument-assisted soft tissue mobilization that enables clinicians to effectively detect and treat scar tissue and restrictions that affect normal function.</p>
-					      <h5>This technique: </h5>
-					      <ul class="careInfo" style="list-style-type:disc">
+					      <p class="careInfo noIndent">The Graston Technique incorporates a patented form of instrument-assisted soft tissue mobilization that enables clinicians to effectively detect and treat scar tissue and restrictions that affect normal function. This technique:</p>
+					      <ul class="careInfo">
 						      <li>Separates and breaks down collagen cross-links</li> 
 						      <li>Splays and stretches connective tissue and muscle fibers</li>
 						      <li>Increases skin temperature</li>
@@ -247,21 +250,17 @@
 			</div>
 			<!-- ART modal -->
 			<div data-toggle="modal" data-target="#ARTModal" class="container col-lg-6" id="art">
-				<img src="assets/images/active_release.jpeg">
+				<img class="techPics" src="assets/images/active_release.jpeg">
 				<h4 class="techniques">Active Release Technique</h4>
 			</div>
 			<div id="ARTModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title subHeaders">Active Release Technique (ART)</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
+				        <h5 class="modal-title subHeaders modalHeads">Active Release Technique (ART)</h5>
 				      </div>
 				      <div class="modal-body">
-				        <p class="careInfo">A state-of-the-art soft tissue system that treats problems with muscles, tendons, ligaments, fascia and nerves. ART refers to the manual massage technique for stretching the connective tissue and releasing adhesions between it and muscles,tendons, nerves, membranes and bones. Injuries, stress, trauma, overuse and poor posture can cause these restrictions. Every ART session is actually a combination of examination and treatment.</p>
-				        <p class="careInfo">The ART provider uses his or her hands to evaluate the texture, tightness and movement of muscles, fascia, tendons, ligaments and nerves. Abnormal tissues are treated by combining precisely directed tension with very specific patient movements. ART® finds the specific tissues that are restricted and physically works them back to its normal texture, tension, and length by using various hand positions and soft tissue manipulation methods. These treatment protocols – over 500 of them – are unique to ART. They allow providers to identify and correct the specific problems that are affecting each individual patient.</p>
+				        <p class="careInfo noIndent">The Active Release Technique is a state-of-the-art soft tissue system that treats problems with muscles, tendons, ligaments, fascia and nerves. ART refers to the manual massage technique for stretching the connective tissue and releasing adhesions between it and muscles,tendons, nerves, membranes and bones. Injuries, stress, trauma, overuse and poor posture can cause these restrictions. Every ART session is a combination of examination and treatment.</p>
 				      </div>
 				      <div class="modal-footer">
 				 
@@ -286,10 +285,10 @@
 			<div class="container">
 				<div class="jumbotron" id="drxTech">
 					<h4>What is non-surgical spinal decompression?</h4>
-					<p>Non-surgical spinal decompression is a type of therapy that works to alleviate leg and back pain by stretching the spine.</p>
+					<p class="col-lg-4">Non-surgical spinal decompression is a type of therapy that works to alleviate leg and back pain by stretching the spine.</p>
 				</div>
 			<div class="col-lg-12">
-				<button type="button" id="bookBtn" data-toggle="modal" data-target="#drxModal">FAQs</button>
+				<button type="button" class="bookBtn modalBtn" data-toggle="modal" data-target="#drxModal">FAQs</button>
 			</div>
 				<div id="drxModal" class="modal fade">
 				  <div class="modal-dialog" role="document">
@@ -380,16 +379,16 @@
 	<footer class="footer">
     	<div class="container">
     		<div class="footerblock col-lg-4">
-    			<h5 class="h5">LOCATION</h5>
+    			<h5 class="contactDetails">LOCATION</h5>
     			<a href="contact.html" class="details">7220 Avenida Encinas #110<br>Carlsbad, CA</a>
     		</div>
     		<div class= "col-lg-4 " id="footblockright">
-    			<h5 class="h5">CONTACT US</h5>
+    			<h5 class="contactDetails">CONTACT US</h5>
     			<p class="details">Ph: 760-268-1072</p>
     			<p class="details">Fax: 760-268-1076</p>
     		</div>
     		<div class=" nonfooterblock col-lg-4">
-    			<h5 class="h5">HOURS</h5>
+    			<h5 class="contactDetails">HOURS</h5>
     			<p class="details">Monday/Wednesday: 2pm-6pm</p>
     			<p class="details">Tuesday/Thursday: 7am-2pm</p>
     			<p class="details">Friday: 8am-2pm</p>
