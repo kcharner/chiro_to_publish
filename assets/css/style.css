@@ -68,7 +68,8 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px; 
-	color: #008F95;
+	color: #457BB8;
+	font-family: Raleway;
 }
 
 .details {
@@ -207,9 +208,9 @@ footer {
 
 #rss{
 	height:170px;
-	width:75%;
+	width:96%;
 	background-color: #008F95;
-	margin-left: 12.5%;
+	margin-left: 2%;
 }
 
 .nopadding {
@@ -222,7 +223,7 @@ footer {
 
 .services {
 	color: black;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 #image-carousel-care {
@@ -255,11 +256,24 @@ footer {
 	margin-left: 40%;
 }
 
+#perfCare {
+	width: 90%;
+	margin-left: 5%;
+	font-size: 20px;
+	text-indent: 0px;
+}
+
+.solution {
+	text-indent: 0px;
+	text-align: center;
+}
+
 .techniques {
 	color: black;
-	font-family: Anton;
+	font-family: Raleway;
 	font-size: 26px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .techPics {
