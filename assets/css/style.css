@@ -322,7 +322,7 @@ footer {
 
 .testimonial-tag {
 	width: 300px;
-	border: 1px solid grey;
+	border: 1px solid #4A4444;
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-top-left-radius: 1em;
@@ -384,33 +384,57 @@ footer {
 #mapView {
 	width: 100%;
 	min-height: 300px; 
-	border: 1px solid grey;
+	border: 1px solid #4A4444;
 }	
 
 #officeView {
 	width: 100%;
 	min-height: 380px;
-	border: 1px solid grey; 
+	border: 1px solid #4A4444; 
 }	
 
 .emailUs {
+	background-color: #B2DFDB;
+	padding: 1%;
+	border: 1px solid #B4FFDA;
 	text-align: center;
 	font-size: 25px;
 	text-decoration: underline;
 	font-family: Oswald;
+	color: #4A4444;
+	width: 100%;
 }
 
-#closed {
+.contactDetails {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px; 
+	color: #008F95;
+}
+
+.details {
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+}
+
+.closed {
 	text-align: center;
 	padding: 2%;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#emailForm {
+	margin-top: 2%;
 }
 
 #et_contact_form {
-	background-color: 	#E0E0E0 ;
+	background-color: #E0E0E0;
 	border-radius: 15px;
-	border: 1px solid #E0F7FA;
+	border: 1px solid #4A4444;
 	padding: 3%;
-	margin-top: 70px;
+	margin-top: 10%;
 	margin-bottom: 5%;
 	min-height: 400px;
 	width: 100%;
@@ -421,14 +445,15 @@ footer {
 	border: none;
 	border-radius: 8px;
 	font-size: 18px;
+	float: right;
 }
 
 #et_contact_reset {
-	margin-right: 120px;
+	margin-left: 3%;
 }
 
-#yelpStatement{
-	text-align: center;
+#yelp {
+	margin-top: 12%;
 }
 
 #yelpPhoto {
