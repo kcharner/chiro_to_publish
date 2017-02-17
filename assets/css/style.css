@@ -64,9 +64,11 @@ footer {
 	padding-bottom: .5%;
 }
 
-.h5 {
+.contactDetails {
+	text-align: center;
 	font-weight: bold;
-	font-style: italic;
+	font-size: 18px; 
+	color: #008F95;
 }
 
 .details {
@@ -262,6 +264,12 @@ footer {
 	font-family: Raleway;
 	font-size: 18px;
 	text-indent: 60px;
+	color: black;
+}
+
+#docContent {
+	width: 85%;
+	margin-left: 7.5%;
 }
 
 #tagline {
@@ -275,19 +283,38 @@ footer {
 	font-size: 25px;
 }
 
+.d-block img-fluid {
+	width: 90%;
+	margin: 0%;
+	margin-left: 5%;
+	padding: 0%;
+}
+
+#info {
+	width: 30%;
+	background-color: #F7F5E6;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	border: 1px solid #4A4444;
+}
+
 #credentials {
+	margin-left: 3%;
 	padding-left: 5%;
 	padding-top: 5%;
 }
 
-#methods {
-	margin-top: 5%;
-	color: black;
-	list-style-type:disc;
+#aboutDiv {
+	margin-top: 13%;
+	margin-left: 0%;
+	font-size: 16px;
+	color: #343956;
 }
 
-#aboutStatement{
-	text-indent: 40px;
+#methods {
+	margin-top: 10%;
+	margin-left: 4.5%;
+	list-style-type:disc;
 }
 
 #about {
@@ -401,13 +428,6 @@ footer {
 	width: 100%;
 }
 
-.contactDetails {
-	text-align: center;
-	font-weight: bold;
-	font-size: 18px; 
-	color: #008F95;
-}
-
 .details {
 	text-align: center;
 	font-size: 15px;
@@ -430,7 +450,7 @@ footer {
 }
 
 #et_contact_form {
-	background-color: #E0E0E0;
+	background-color:  #F7F5E6;
 	border-radius: 15px;
 	border: 1px solid #4A4444;
 	padding: 3%;
