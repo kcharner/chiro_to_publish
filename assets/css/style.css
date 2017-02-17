@@ -223,6 +223,14 @@ footer {
 	font-size: 15px;
 }
 
+#image-carousel-care {
+	margin-top: 14%;
+}
+
+#offers {
+	margin-top: 4%;
+}
+
 .techniques {
 	color: black;
 	font-family: Anton;
@@ -230,14 +238,9 @@ footer {
 	margin-top: 27%;
 }
 
-#secondarySub {
-	clear: both;
-}
-
 #graston, #art { cursor: pointer; }
 
 #graston {
-	background-image: url("../images/graston.jpeg");
 	min-height: 235px;
 }
 

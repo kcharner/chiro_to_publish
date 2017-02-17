@@ -48,8 +48,10 @@
 		padding-top: 1%
 	}
 	
-	#rss {
-		display: none;
+	
+
+	.techniques {
+		margin-top: 23%;
 	}
 
 	#drxTech {
@@ -65,24 +67,9 @@
 		text-indent: 0%;
 	}
 
-	.testimonial-tag {
-		width: 70%;
-		margin-left: 15%;
-	}
-
 	.down-arrow {
 		width: 12%;
 		margin-left: 44%;
-	}
-
-	#mapView {
-		width: 80%;
-		margin-left: 10%;
-	}
-	
-	#officeView {
-		width: 80%;
-		margin-left: 10%;
 	}
 
 }
@@ -126,10 +113,7 @@
 		font-size: 20px;
 	}
 	
-	#introVideo {
-		width: 100%;
-	}
-
+	
 	#secondarySub {
 		text-align: center;
 	}
@@ -144,11 +128,6 @@
 
 	h4 {
 		text-align: center;
-	}
-
-	.techniques {
-		margin-top: 41%;
-		text-align: left;
 	}
 
 	.careInfo {
@@ -177,12 +156,38 @@
 		font-size: 24px;
 	}
 
+	.techniques {
+		margin-top: 43%;
+	}
+
 	.intakeForm {
 		text-align: center;
 		width: 58%;
 		margin-left: 21%;
 		margin-bottom: 5%;
 	}
+
+	#videocontainer{
+		max-height:auto;
+		width:90%;
+	}
+	#introVideo{
+		max-height: 300px;
+	}
+	#rss{
+		width:90%;
+		margin-left: 5%
+		}
+	.footerblock{
+		float:left;
+	}
+	#footerblockright{
+		float:right;
+	}
+	.nonfooterblock{
+		clear:both;
+	}
+
 }
 
 /*IPHONE5 VERTICAL*/

@@ -13,6 +13,14 @@
 		margin-left: 2%;
 	}
 
+	.homeNav {
+		border-bottom: 1px solid #B4FFDA;
+	}
+
+	#headline {
+		border-bottom: 1px solid #B4FFDA;
+	}
+
 	.container-fluid {
 		margin-top: 1%;
 	}
@@ -22,6 +30,11 @@
 	}
 
 	#logoMain {
+		margin-left: 0%;
+		width: 80%;
+	}
+
+	#logoAlt {
 		margin-left: 0%;
 		width: 80%;
 	}
@@ -52,9 +65,67 @@
 		width: 95%;
 		margin-left: 2.5%;
 	}
+
+	.techniques {
+		margin-top: 27%;
+		text-align: left;
+	}
+
+	#graston {
+		width: 60%;
+		background-repeat: no-repeat;
+	}
+
+	#art {
+		width: 60%;
+		background-repeat: no-repeat;
+	}
+
+	/*#info {
+		width: 40%;
+	}
+
+	#image-carousel-about {
+		width: 40%;
+		margin-left: 3%;
+		padding: 0%;
+	}
+
+	.bio {
+		float: left;
+	}
+
+	#summary {
+		color: red;
+	}*/
+
+	.intakeForm {
+		text-align: center;
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 2%;
+	}
+
+	.testimonial-tag {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.down-arrow {
+		width: 10%;
+		margin-left: 45%;
+	}
+
+	#mapView {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#officeView {
+		width: 80%;
+		margin-left: 10%;
+	}
 }
-
-
 
 
 @media only screen and (max-width:800px) {
@@ -77,13 +148,55 @@
 		padding: 1%;
 	}
 
+	#logoAlt {
+		width: 60%;
+		margin-left: 20%;
+		padding: 1%;
+	}
+
 	#links {
 		width: 100%;
+		margin-right: 0%;
 	}
 
 	#rss {
 		width: 98%;
 		margin-left: 1%;
+	}
+
+	#secondarySub {
+		width: 40%;
+		display: inline-block;
+		float: right;
+		margin-top: 7%;
+		margin-right: 8%;
+		font-size: 35px;
+	}
+
+	#carousCon {
+		width: 50%;
+		margin-left: 1%;
+	}
+
+	#graston {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#art {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.techniques {
+		margin-top: 21%;
+	}
+
+	.intakeForm {
+		text-align: center;
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 2%;
 	}
 }
 
