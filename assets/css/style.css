@@ -394,13 +394,9 @@ footer {
 }	
 
 .emailUs {
-	background-color: #B2DFDB;
-	padding: 1%;
-	border: 1px solid #B4FFDA;
-	text-align: center;
+	padding-bottom: 2%;
 	font-size: 25px;
 	text-decoration: underline;
-	font-family: Oswald;
 	color: #4A4444;
 	width: 100%;
 }
@@ -423,6 +419,10 @@ footer {
 	padding: 2%;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+#contact {
+	padding-bottom: 2.5%;
 }
 
 #emailForm {
