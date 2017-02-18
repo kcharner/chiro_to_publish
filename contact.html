@@ -93,7 +93,7 @@
 		<p class="col-sm-10 col-sm-offset-1 closed" id="emailForm">Or send us an email below!</p>
 		<!-- contact form -->
 		<div class="col-md-12">
-			<form class="form-horizontal" action="http://www.evolvesportschiropractic.com/contact-us/" method="post" id="et_contact_form">
+			<form class="form-horizontal" action="http://www.evolvesportschiropractic.com/contact/" method="post" id="et_contact_form">
 				<div class="form-group">
 					<label for="inputName" class="col-sm-2 control-label">Name</label>
 					<div class="col-sm-10">
@@ -117,12 +117,23 @@
 					<div class="col-sm-10">
 					  	<textarea class="form-control" rows="8" placeholder="Message"></textarea>
 					</div>
+
 				</div>
-				<div id="btns">
+				
+				<span>
+				Captcha: <br>14 + 15 = <input type="text" name="et_contact_captcha" value="" id="et_contact_captcha" class="input" size="2">
+				</span>
+					<span>
 					<input type="hidden" name="et_contactform_submit" value="et_contact_proccess">
 					<button class="formBtns" type="reset" id="et_contact_reset">Clear</button>
 					<button class="et_contact_submit formBtns" type="submit" id="et_contact_submit">Submit</button>
-				</div>
+					</span>
+										
+				<!-- div id="btns">
+					<input type="hidden" name="et_contactform_submit" value="et_contact_proccess">
+					<button class="formBtns" type="reset" id="et_contact_reset">Clear</button>
+					<button class="et_contact_submit formBtns" type="submit" id="et_contact_submit">Submit</button>
+				</div> -->
 			</form>
 		</div>
 		<!-- yelp -->

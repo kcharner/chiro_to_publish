@@ -54,7 +54,7 @@
 		text-align: center;
 	}
 
-	#bookBtn {
+	.bookBtn {
 		margin-top: 1%;
 		margin-bottom: 2%;
 		width: 30%;
@@ -62,12 +62,12 @@
 	}
 
 	#rss {
-		width: 95%;
-		margin-left: 2.5%;
+		width: 90%;
+		margin-left: 5%;
 	}
 
 	.techniques {
-		margin-top: 27%;
+		margin-top: 5%;
 		text-align: left;
 	}
 
@@ -79,6 +79,11 @@
 	#art {
 		width: 60%;
 		background-repeat: no-repeat;
+	}
+
+	#introVideo {
+		width: 95%;
+		margin-left: 2.5%;
 	}
 
 	/*#info {
@@ -98,6 +103,20 @@
 	#summary {
 		color: red;
 	}*/
+
+	#secondarySub	{
+		width: 60%;
+		display: inline-block;
+		float: right;
+		font-size: 30px;
+		margin-top: 5%;
+	}
+	
+	#image-carousel-care {
+		width: 30%;
+		margin-top: 0%;
+		margin-left: 0%;
+	}
 
 	.intakeForm {
 		text-align: center;
@@ -124,6 +143,16 @@
 	#officeView {
 		width: 80%;
 		margin-left: 10%;
+	}
+
+	#footerId{
+		margin: 0 auto;
+		width: 620px;
+
+	}
+
+	.footerItem{
+		float: left;
 	}
 }
 
@@ -159,9 +188,14 @@
 		margin-right: 0%;
 	}
 
+	#introVideo {
+		width: 92%;
+		margin-left: 4%;
+	}
+
 	#rss {
-		width: 98%;
-		margin-left: 1%;
+		width: 90%;
+		margin-left: 5%;
 	}
 
 	#secondarySub {
@@ -188,16 +222,43 @@
 		margin-left: 10%;
 	}
 
-	.techniques {
-		margin-top: 21%;
-	}
-
 	.intakeForm {
 		text-align: center;
 		width: 80%;
 		margin-left: 10%;
 		margin-bottom: 2%;
 	}
+
+	#credentials-container{
+		width: 700px;
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+	#image-carousel-about{
+		width: 350px;
+		display: inline-block;
+		float: left;
+	}
+
+	#aboutDiv{
+		width: 300px;
+		display: inline-block;
+
+	}
+
+	#aboutStatement{
+		height: 100px;
+		display: inline-block;
+	}
+
+	#summary{
+		width: 700px;
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
 }
 
 

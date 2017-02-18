@@ -1,17 +1,37 @@
 /*MOBILE HORIZONTAL*/
 @media only screen and (max-width:700px) {
-	
+	.row {
+    margin-right: 0px;
+     margin-left: 0px; 
+}
+
+	#footerDiv{
+		padding: 0px;
+	}
+	.footerblock{
+		float:left;
+		margin-left: 10%;
+	}
+	#footerblockright{
+		float:right;
+	}
+	.nonfooterblock{
+		clear:both;
+	}
 	#fixedNav {
 		display: none;
 	}
-
+	#credentials-container{
+		width: 100%;
+		margin-left: 0px;
+	}
 	.navbar-header {
 		width: 100%;
 	}
 
 	#logoMain {
 		padding: 1%;
-		margin-left: 7%;
+		margin-left: 25%;
 		width: 60%;
 	}
 
@@ -23,7 +43,6 @@
 
 	button.navbar-toggle.collapsed {
 		margin-top: 6%;
-		margin-right: 12%;
 		border: 1px solid grey;
 	}
 
@@ -38,20 +57,14 @@
 		background-color: #B2DFDB;
 	}
 
-	#bookBtn {
+	.bookBtn {
 		margin-top: 0%;
 		margin-bottom: 1%;
 		font-size: 25px;
-		width: 40%;
-		margin-left: 30%;
+		width: 60%;
+		margin-left: 20%;
 		border-radius: 24px; 
 		padding-top: 1%
-	}
-	
-	
-
-	.techniques {
-		margin-top: 23%;
 	}
 
 	#drxTech {
@@ -61,6 +74,8 @@
 
 	#image-carousel-about {
 		align-content: center;
+		width:80%;
+		margin-left:10%;
 	}
 
 	#aboutStatement {
@@ -72,6 +87,30 @@
 		margin-left: 44%;
 	}
 
+	#introVideo {
+		width: 97%;
+		margin-left: 1.5%;
+		min-height: 275px;
+		margin-top: 2%;
+	}
+
+	#secondarySub {
+		width: 40%;
+		margin-left: 5%;
+	}
+	#summary{
+		width:100%;
+		margin-left: 0px;
+	}
+	#aboutDiv {
+		width:80%;
+		margin-top: 30px;
+		margin-left: 10%
+	}
+	#methods{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
 }
 
 /*MOBILE VERTICAL*/
@@ -111,8 +150,12 @@
 		margin-top: 1%;
 		margin-bottom: 3%;
 		font-size: 20px;
+		width: 40%;
 	}
-	
+	.testimonial-header{
+		color:white;
+		font-size: 24px;
+	}
 	
 	#secondarySub {
 		text-align: center;
@@ -157,7 +200,8 @@
 	}
 
 	.techniques {
-		margin-top: 43%;
+		margin-top: 15px;
+		text-align: center;
 	}
 
 	.intakeForm {
@@ -180,6 +224,7 @@
 		}
 	.footerblock{
 		float:left;
+		margin-left: 0px;
 	}
 	#footerblockright{
 		float:right;
@@ -187,7 +232,47 @@
 	.nonfooterblock{
 		clear:both;
 	}
-
+	#et_contact_form {
+		min-height: 500px;
+	}
+	#et_contact_right{
+		width: 40%
+		margin-left:30%;
+	}
+	#btns{
+	margin-top: -30px;
+	}
+	#credentials-container{
+		width: 100%;
+		margin-left: 0px;
+	}
+	#summary{
+		width:100%;
+		margin-left: 0px;
+	}
+	#aboutDiv {
+		width:80%;
+		margin-top: 30px;
+		margin-left: 10%
+	}
+	#methods{
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	#credentials{
+		margin-top: 20px;
+	}
+	#drxTech{
+		min-height:160px;
+	}
+	#secondarySub{
+		width: 90%;
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+	#carousCon{
+		margin-left: 10px;
+	}
 }
 
 /*IPHONE5 VERTICAL*/

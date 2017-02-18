@@ -330,12 +330,6 @@ footer {
 	border: 1px solid grey;
 }
 
-#credentials {
-	margin-left: 3%;
-	padding-left: 5%;
-	padding-top: 5%;
-}
-
 #aboutDiv {
 	margin-top: 13%;
 	margin-left: 0%;
@@ -358,7 +352,14 @@ footer {
 /*end ABOUT file*/
 
 /*APPOINTMENTS file*/
-
+#downloadBTN{
+	width:25%;
+	margin-left: 37.5%
+}
+#clicktodownload{
+	width:60%;
+	margin-left: 10%
+}
 .patients-arrow {
  	width: 26px;
  	border-radius: 25em;
