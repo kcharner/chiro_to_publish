@@ -1,17 +1,12 @@
+/*/*IPAD PRO VERTICAL*/
+/*@media only screen and (max-width:1100px) {
+
+	
+/* END IPAD PRO VERTICAL*/
+
 /*IPAD HORIZONTAL*/
 @media only screen and (max-width:1050px) {
-	#drxTech{
-		
-	}
-	h4.techniques {
-		margin-top: 15px;
-		text-align: center;
-		font-size: 24px;
-		font-weight: bold;
-	}
-	.top-link {
-		margin-right: 5%;
-	}
+
 	#highlights {
 		width: 50%;
 		display: inline-block;
@@ -159,32 +154,11 @@
 	.footerItem{
 		float: left;
 	}
-	.footerblock{
-		float:left;
-		margin-left: 10%;
-	}
-	#footerblockright{
-		float:right;
-	}
-	.nonfooterblock{
-		clear:both;
-	}
-	.testimonial-header{
-		color:white;
-		font-size: 24px;
-	}
-	#downloadBTN{
-		display: block;
-		width:20%;
-		margin-left: 40%;
-	}
 }
 
 
 @media only screen and (max-width:800px) {
-	#aboutDiv{
-		margin-top: 5px;
-	}
+
 	#fixedNav {
 		display: none;
 	}
@@ -284,10 +258,7 @@
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-	.details2{
-			font-size: 16px;
-			text-align: center;
-		}
+
 }
 
 
