@@ -282,10 +282,9 @@ footer {
 }
 
 #graston, #art { cursor: pointer; }
-
-#drxTech {
-	background-image: url("../images/drx9000.jpg");
-	min-height: 375px;
+#drxImage{
+	width:50%;
+	margin-left: 25%
 }
 
 /*end CARE file*/
