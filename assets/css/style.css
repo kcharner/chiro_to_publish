@@ -180,7 +180,6 @@ footer {
 }
 
 #jumboMain {
-	width: 47.5%;
 	background-color: white;
 	background-size: 100%;
 	min-height:525px;
@@ -191,24 +190,20 @@ footer {
 	letter-spacing: 2px;
 	padding: 0px;
 	margin: 0px;
-	margin-left: 2.5%;
 }
 
 #makeApp {
 	color: white;
 	margin-top: 260px;
-	text-align: center;
-	width: 80%;
+	width:80%;
 	margin-left: 10%;
 }
 
 #introVideo {
-	width: 95%;
+	width:100%;
 	min-height: 525px;
 	padding: 0px;
 	margin: 0px;
-	margin-right: 5%;
-	border: 1px solid #4A4444;
 }
 
 #rss{
@@ -283,14 +278,20 @@ footer {
 
 .techPics {
 	width: 100%;
-	min-height: 235px;
+	max-height: 150px;
+}
+
+.specialtyBtn {
+	width: 70%;
+	margin-left: 15%;
+	font-size: 17px;
+	padding-bottom: .5%;
 }
 
 #graston, #art { cursor: pointer; }
-
-#drxTech {
-	background-image: url("../images/drx9000.jpg");
-	min-height: 375px;
+#drxImage{
+	width:50%;
+	margin-left: 25%
 }
 
 /*end CARE file*/
@@ -439,6 +440,7 @@ footer {
  	margin-left: 30px;
  	margin-bottom: 20px;
  	display: none;
+ 	width: 80%;
 } 
 
 .down-arrow {
