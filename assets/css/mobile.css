@@ -146,6 +146,13 @@
 		margin-left: 10%;
 		margin-top: 2%;
 	}
+
+	#vid1 {
+		min-height: 300px;
+	}
+
+	#vid2 {
+		min-height: 300px;
 }
 
 /*MOBILE VERTICAL*/
@@ -336,6 +343,17 @@
 		margin-top: 3%;
 	}
 
+	#vid1 {
+		width: 90%;
+		margin-left: 5%;
+		min-height: 200px;
+	}
+
+	#vid2 {
+		width: 90%;
+		margin-left: 5%;
+		min-height: 200px;
+	}
 }
 
 /*IPHONE5 VERTICAL*/

@@ -261,6 +261,15 @@ footer {
 	margin-left: 40%;
 }
 
+#spineDiv {
+	margin-top: 3%;
+}
+
+#drx {
+	padding: 5%;
+	font-size: 22px;
+}
+
 .perfCare {
 	width: 90%;
 	margin-left: 5%;
@@ -541,8 +550,19 @@ footer {
 
 /*end CONTACT file*/
 
+#youtubeVids {
+	margin-top: 7%;
+	margin-bottom: 10%;
+}
 
+#vid1 {
+	width: 50%;
+	min-height: 400px;
+}
 
-
+#vid2 {
+	width: 50%;
+	min-height: 400px;
+}
 
 

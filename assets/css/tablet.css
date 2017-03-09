@@ -121,7 +121,30 @@
 		font-size: 30px;
 		margin-top: 5%;
 	}
+
+	#drx {
+		text-align: center;
+		padding: 2%;
+		padding-top: 0%;
+		font-size: 23px;
+	}
+
+	#spineDiv {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#drxDiv {
+		width: 90%;
+		margin-left: 5%;
+	}
 	
+	#drxMachine {
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+
 	#image-carousel-care {
 		width: 30%;
 		margin-top: 0%;
@@ -194,14 +217,25 @@
 		width: 85%;
 		margin-left: 7.5%;
 	}
-}
 
+	#vid1 {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#vid2 {
+		width: 90%;
+		margin-left: 5%;
+	}
+}
 
 @media only screen and (max-width:800px) {
 
 	.navbar-default .navbar-nav>li>a {
 		font-size: 14px;
-		padding-right: 9px;
+		padding: 1%;
+		padding-left: 2%;
+		width: 50%;
 	}
 
 	#fluidHeader {
@@ -315,6 +349,17 @@
 			font-size: 16px;
 			text-align: center;
 		}
+	
+	#vid1 {
+		width: 80%;
+		margin-left: 10%;
+		max-height: 200px;
+	}
+
+	#vid2 {
+		width: 80%;
+		margin-left: 10%;
+		max-height: 200px;
 }
 
 
